@@ -1,6 +1,6 @@
 //
-//  RikAndMortiSurfApp.swift
-//  RikAndMortiSurf
+//  RickandMortySurfApp.swift
+//  RickandMortySurf
 //
 //  Created by Максим Герасимов on 17.07.2024.
 //
@@ -11,7 +11,8 @@ import SwiftUI
 struct RikAndMortiSurfApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CharacterListView()
+                .preferredColorScheme(.dark)
         }
     }
 }

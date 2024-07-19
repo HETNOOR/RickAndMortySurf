@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class CharacterDetailViewModel: ObservableObject {
-    @Published var character: Result?
+    @Published var character: Character?
     @Published var isLoading = false
     @Published var error: Error?
 

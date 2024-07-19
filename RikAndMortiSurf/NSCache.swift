@@ -16,27 +16,27 @@ protocol NSCacheStoreDatasource {
     subscript(key: Key) -> Value? { get set }
 }
 
-class DefaultNSCacheStoreDatasource <Key: Hashable, Value >: NSCacheStoreDatasource {
-    func save(_ value: Value, forkey key: Key) {
-        <#code#>
-    }
-    
-    func retrieve(forkey key: Key) -> Value? {
-        <#code#>
-    }
-    
-    func removeValue(forKey key: Key) {
-        <#code#>
-    }
-    
-    subscript(key: Key) -> Value? {
-        get {
-            <#code#>
-        }
-        set {
-            <#code#>
-        }
-    }
-    
-    
-}
+//class DefaultNSCacheStoreDatasource <Key: Hashable, Value >: NSCacheStoreDatasource {
+//    func save(_ value: Value, forkey key: Key) {
+//        <#code#>
+//    }
+//    
+//    func retrieve(forkey key: Key) -> Value? {
+//        <#code#>
+//    }
+//    
+//    func removeValue(forKey key: Key) {
+//        <#code#>
+//    }
+//    
+//    subscript(key: Key) -> Value? {
+//        get {
+//            <#code#>
+//        }
+//        set {
+//            <#code#>
+//        }
+//    }
+//    
+//    
+//}

@@ -7,20 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF6EFBC12C47DD610088BA68 /* RikAndMortiSurfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBC02C47DD610088BA68 /* RikAndMortiSurfApp.swift */; };
-		CF6EFBC32C47DD610088BA68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBC22C47DD610088BA68 /* ContentView.swift */; };
+		CF6EFBC12C47DD610088BA68 /* RickandMortySurfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBC02C47DD610088BA68 /* RickandMortySurfApp.swift */; };
 		CF6EFBC52C47DD630088BA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6EFBC42C47DD630088BA68 /* Assets.xcassets */; };
 		CF6EFBC82C47DD630088BA68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6EFBC72C47DD630088BA68 /* Preview Assets.xcassets */; };
 		CF6EFBCF2C47E1690088BA68 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6EFBCE2C47E1690088BA68 /* Launch Screen.storyboard */; };
+		CF6EFBD12C47E9340088BA68 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBD02C47E9340088BA68 /* NetworkService.swift */; };
+		CF6EFBD82C48003F0088BA68 /* CharacterListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBD72C48003F0088BA68 /* CharacterListResponse.swift */; };
+		CF6EFBDB2C48F88A0088BA68 /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBDA2C48F88A0088BA68 /* CharacterListViewModel.swift */; };
+		CF6EFBDD2C48F8BA0088BA68 /* CharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBDC2C48F8BA0088BA68 /* CharacterDetailViewModel.swift */; };
+		CF6EFBE12C48F9B90088BA68 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBE02C48F9B90088BA68 /* CharacterListView.swift */; };
+		CF6EFBE32C48F9DB0088BA68 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBE22C48F9DB0088BA68 /* CharacterDetailView.swift */; };
+		CF6EFBE52C48FA1E0088BA68 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFBE42C48FA1E0088BA68 /* AsyncImage.swift */; };
+		CFB0C94D2C4A52E800C8769E /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0C94C2C4A52E800C8769E /* TableRow.swift */; };
+		CFB0C9532C4AA05700C8769E /* CharacterFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0C9522C4AA05700C8769E /* CharacterFilterView.swift */; };
+		CFB0C9552C4AB29500C8769E /* FilterSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0C9542C4AB29500C8769E /* FilterSettingsView.swift */; };
+		CFB0C9572C4AE54E00C8769E /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0C9562C4AE54E00C8769E /* NetworkMonitor.swift */; };
+		CFB0C9592C4AE5BF00C8769E /* NoConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0C9582C4AE5BF00C8769E /* NoConnectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF6EFBBD2C47DD610088BA68 /* RikAndMortiSurf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RikAndMortiSurf.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6EFBC02C47DD610088BA68 /* RikAndMortiSurfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RikAndMortiSurfApp.swift; sourceTree = "<group>"; };
-		CF6EFBC22C47DD610088BA68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF6EFBBD2C47DD610088BA68 /* RickandMortySurf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickandMortySurf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6EFBC02C47DD610088BA68 /* RickandMortySurfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickandMortySurfApp.swift; sourceTree = "<group>"; };
 		CF6EFBC42C47DD630088BA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6EFBC72C47DD630088BA68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF6EFBCE2C47E1690088BA68 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CF6EFBD02C47E9340088BA68 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CF6EFBD72C48003F0088BA68 /* CharacterListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListResponse.swift; sourceTree = "<group>"; };
+		CF6EFBDA2C48F88A0088BA68 /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		CF6EFBDC2C48F8BA0088BA68 /* CharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModel.swift; sourceTree = "<group>"; };
+		CF6EFBE02C48F9B90088BA68 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		CF6EFBE22C48F9DB0088BA68 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		CF6EFBE42C48FA1E0088BA68 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		CFB0C94C2C4A52E800C8769E /* TableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
+		CFB0C9522C4AA05700C8769E /* CharacterFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFilterView.swift; sourceTree = "<group>"; };
+		CFB0C9542C4AB29500C8769E /* FilterSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSettingsView.swift; sourceTree = "<group>"; };
+		CFB0C9562C4AE54E00C8769E /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		CFB0C9582C4AE5BF00C8769E /* NoConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +59,7 @@
 		CF6EFBB42C47DD610088BA68 = {
 			isa = PBXGroup;
 			children = (
-				CF6EFBBF2C47DD610088BA68 /* RikAndMortiSurf */,
+				CF6EFBBF2C47DD610088BA68 /* RickandMortySurf */,
 				CF6EFBBE2C47DD610088BA68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,20 +67,24 @@
 		CF6EFBBE2C47DD610088BA68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF6EFBBD2C47DD610088BA68 /* RikAndMortiSurf.app */,
+				CF6EFBBD2C47DD610088BA68 /* RickandMortySurf.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF6EFBBF2C47DD610088BA68 /* RikAndMortiSurf */ = {
+		CF6EFBBF2C47DD610088BA68 /* RickandMortySurf */ = {
 			isa = PBXGroup;
 			children = (
-				CF6EFBC02C47DD610088BA68 /* RikAndMortiSurfApp.swift */,
-				CF6EFBC22C47DD610088BA68 /* ContentView.swift */,
+				CF6EFBC02C47DD610088BA68 /* RickandMortySurfApp.swift */,
+				CF6EFBDF2C48F9AB0088BA68 /* Views */,
+				CF6EFBDE2C48F8E70088BA68 /* ViewModels */,
+				CF6EFBD92C48EDAF0088BA68 /* Managers */,
 				CF6EFBC42C47DD630088BA68 /* Assets.xcassets */,
+				CF6EFBD62C47FD630088BA68 /* Models */,
 				CF6EFBC62C47DD630088BA68 /* Preview Content */,
 				CF6EFBCE2C47E1690088BA68 /* Launch Screen.storyboard */,
 			);
+			name = RickandMortySurf;
 			path = RikAndMortiSurf;
 			sourceTree = "<group>";
 		};
@@ -70,12 +96,52 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CF6EFBD62C47FD630088BA68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF6EFBD72C48003F0088BA68 /* CharacterListResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF6EFBD92C48EDAF0088BA68 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0C9562C4AE54E00C8769E /* NetworkMonitor.swift */,
+				CF6EFBD02C47E9340088BA68 /* NetworkService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CF6EFBDE2C48F8E70088BA68 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CF6EFBDA2C48F88A0088BA68 /* CharacterListViewModel.swift */,
+				CF6EFBDC2C48F8BA0088BA68 /* CharacterDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF6EFBDF2C48F9AB0088BA68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0C9522C4AA05700C8769E /* CharacterFilterView.swift */,
+				CF6EFBE02C48F9B90088BA68 /* CharacterListView.swift */,
+				CFB0C9542C4AB29500C8769E /* FilterSettingsView.swift */,
+				CF6EFBE22C48F9DB0088BA68 /* CharacterDetailView.swift */,
+				CF6EFBE42C48FA1E0088BA68 /* AsyncImage.swift */,
+				CFB0C94C2C4A52E800C8769E /* TableRow.swift */,
+				CFB0C9582C4AE5BF00C8769E /* NoConnectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF6EFBBC2C47DD610088BA68 /* RikAndMortiSurf */ = {
+		CF6EFBBC2C47DD610088BA68 /* RickandMortySurf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF6EFBCB2C47DD630088BA68 /* Build configuration list for PBXNativeTarget "RikAndMortiSurf" */;
+			buildConfigurationList = CF6EFBCB2C47DD630088BA68 /* Build configuration list for PBXNativeTarget "RickandMortySurf" */;
 			buildPhases = (
 				CF6EFBB92C47DD610088BA68 /* Sources */,
 				CF6EFBBA2C47DD610088BA68 /* Frameworks */,
@@ -85,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = RikAndMortiSurf;
+			name = RickandMortySurf;
 			productName = RikAndMortiSurf;
-			productReference = CF6EFBBD2C47DD610088BA68 /* RikAndMortiSurf.app */;
+			productReference = CF6EFBBD2C47DD610088BA68 /* RickandMortySurf.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF6EFBB82C47DD610088BA68 /* Build configuration list for PBXProject "RikAndMortiSurf" */;
+			buildConfigurationList = CF6EFBB82C47DD610088BA68 /* Build configuration list for PBXProject "RickandMortySurf" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF6EFBBC2C47DD610088BA68 /* RikAndMortiSurf */,
+				CF6EFBBC2C47DD610088BA68 /* RickandMortySurf */,
 			);
 		};
 /* End PBXProject section */
@@ -141,8 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6EFBC32C47DD610088BA68 /* ContentView.swift in Sources */,
-				CF6EFBC12C47DD610088BA68 /* RikAndMortiSurfApp.swift in Sources */,
+				CF6EFBE52C48FA1E0088BA68 /* AsyncImage.swift in Sources */,
+				CF6EFBE32C48F9DB0088BA68 /* CharacterDetailView.swift in Sources */,
+				CFB0C94D2C4A52E800C8769E /* TableRow.swift in Sources */,
+				CF6EFBD82C48003F0088BA68 /* CharacterListResponse.swift in Sources */,
+				CF6EFBDB2C48F88A0088BA68 /* CharacterListViewModel.swift in Sources */,
+				CF6EFBD12C47E9340088BA68 /* NetworkService.swift in Sources */,
+				CF6EFBDD2C48F8BA0088BA68 /* CharacterDetailViewModel.swift in Sources */,
+				CFB0C9552C4AB29500C8769E /* FilterSettingsView.swift in Sources */,
+				CFB0C9572C4AE54E00C8769E /* NetworkMonitor.swift in Sources */,
+				CF6EFBE12C48F9B90088BA68 /* CharacterListView.swift in Sources */,
+				CF6EFBC12C47DD610088BA68 /* RickandMortySurfApp.swift in Sources */,
+				CFB0C9532C4AA05700C8769E /* CharacterFilterView.swift in Sources */,
+				CFB0C9592C4AE5BF00C8769E /* NoConnectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +362,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,7 +397,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF6EFBB82C47DD610088BA68 /* Build configuration list for PBXProject "RikAndMortiSurf" */ = {
+		CF6EFBB82C47DD610088BA68 /* Build configuration list for PBXProject "RickandMortySurf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF6EFBC92C47DD630088BA68 /* Debug */,
@@ -350,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF6EFBCB2C47DD630088BA68 /* Build configuration list for PBXNativeTarget "RikAndMortiSurf" */ = {
+		CF6EFBCB2C47DD630088BA68 /* Build configuration list for PBXNativeTarget "RickandMortySurf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF6EFBCC2C47DD630088BA68 /* Debug */,
